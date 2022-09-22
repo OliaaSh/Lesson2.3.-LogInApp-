@@ -23,9 +23,4 @@ class WelcomeViewController: UIViewController {
     }
     
     
-//    @IBAction func logOutButtonPressed() {
-//        self.navigationController?.popViewController(animated: true)
-//    }
-    
-    
 }

@@ -25,7 +25,6 @@ class ViewController: UIViewController {
         logInButton.layer.cornerRadius = 15
         forgotNameButton.layer.cornerRadius = 15
         forgotPassButton.layer.cornerRadius = 15
-        //passwordText.isSecureTextEntry = true
     }
 
     @IBAction func logInButtonPressed() {
