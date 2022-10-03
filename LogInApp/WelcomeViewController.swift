@@ -13,13 +13,11 @@ class WelcomeViewController: UIViewController {
     @IBOutlet var logOutButton: UIButton!
     
     var welcomeMessage = ""
-    let username = ""
-    let password = ""
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        welcomeLabel.text = welcomeMessage
+        welcomeLabel.text = "Welcome, \(welcomeMessage)"
     }
     
     
